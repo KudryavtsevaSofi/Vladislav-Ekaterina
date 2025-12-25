@@ -1,0 +1,75 @@
+.component {
+  &__textBlock {
+    text-align: center;
+    padding: 5%;
+    margin-top: 50px;
+    margin-bottom: 15px;
+  }
+
+  &__title {
+    font-family: "Aquarelle";
+    font-size: 44px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    font-family: "CormorantGaramond-Medium";
+    font-size: 18px;
+    margin: 0;
+  }
+
+  &__calendar {
+    border: solid var(--main-blue);
+    border-width: 1px 0;
+  }
+
+  &__calendarTitle {
+    font-family: "Aquarelle";
+    font-size: 44px;
+    margin: 0;
+    line-height: 135%;
+    text-align: center;
+  }
+
+  &__calendarTable {
+    width: 100%;
+    text-align: center;
+    font-family: "CormorantGaramond-Medium";
+    border: none;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    margin-top: 20px;
+    padding: 0 15px;
+
+    td {
+      width: calc(100%/7);
+    }
+
+    &--top {
+      font-size: 18px;
+    }
+
+    &--bottom {
+      font-size: 22px;
+    }
+
+    &--cell {
+      padding: 0;
+      background-image: url('../../assets/images/heart.svg');
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-position-y: 110%;
+      height: 50px;
+
+      // p {
+      //   margin: 0;
+      // }
+    }
+  }
+
+  &__flowersImg {
+    width: 120%;
+  }
+}

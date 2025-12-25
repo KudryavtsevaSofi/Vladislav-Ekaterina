@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import styles from './main.module.scss';
 import StickSmall from '../assets/images/stick-small.svg';
 import HeroSection from '../components/hero-section/hero-section';
+import DateSection from '../components/date-section/date-section';
 
 const MainPage = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -21,6 +22,7 @@ const MainPage = () => {
       {isMobile ? (
         <div className={styles.mobile}>
           <HeroSection />
+          <DateSection />
         </div>
       ) : (
         <div className={styles.desktop}>
