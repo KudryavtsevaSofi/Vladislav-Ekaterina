@@ -1,0 +1,31 @@
+.desktop {
+  background-color: var(--page-bg-color);
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center; 
+  align-items: center;   
+  
+  &__content {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;     
+    gap: 2rem;
+  }
+
+  &__text {
+    font-family: "CormorantGaramond-Medium";
+    font-size: 5rem;
+    margin: 0;             
+    text-align: center; 
+    overflow: auto;
+  }
+
+  &__stick {
+    height: 13vh;
+  }
+}
+
+.mobile {
+  background-color: var(--page-bg-color);
+}
