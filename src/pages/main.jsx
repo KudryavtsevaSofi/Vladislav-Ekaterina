@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import styles from './main.module.scss';
 import StickSmall from '../assets/images/stick-small.svg';
-import HeroSection from '../components/hero-section';
+import HeroSection from '../components/hero-section/hero-section';
 
 const MainPage = () => {
   const [isMobile, setIsMobile] = useState(false);

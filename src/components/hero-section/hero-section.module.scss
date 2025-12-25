@@ -1,0 +1,77 @@
+.component {
+  background-color: var(--main-blue);
+  height: 100vh;
+  border-bottom-right-radius: 13px;
+  border-bottom-left-radius: 13px;
+  width: 100vw;
+  box-shadow: 0 4px 8.6px var(--shadow);
+  position: relative;
+  overflow: hidden;
+
+  &__text {
+    padding: 10% 13%;
+  }
+
+  &__title {
+    font-family: "CormorantGaramond-Regular";
+    font-size: 44px;
+    color: var(--text-white);
+    margin: 0;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    &--top {
+      display: flex;
+      justify-content: start;
+      margin-bottom: 5px;
+
+      p {
+        margin: 0;
+      }
+    }
+
+    &--bottom {
+      display: flex;
+      justify-content: end;
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+  &__photo {
+    display: flex;
+    justify-content: end;
+
+    img {
+      width: 82%;
+    }
+  }
+
+  &__date {
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    font-family: "Aquarelle";
+    color: var(--text-white);
+    font-size: 35px;
+    padding: 2% 5%;
+    line-height: 130%;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  &__image {
+    position: absolute;
+    bottom: -5%;
+    left: -30%;
+    height: 38%;
+
+    img {
+      height: 100%;
+    }
+  }
+}
