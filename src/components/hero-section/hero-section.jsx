@@ -1,7 +1,7 @@
 import Photo from '../../assets/images/photo.svg';
 import Flowers from '../../assets/images/flowers.svg';
 
-import styles from './hero-section.module.scss'
+import styles from './hero-section.module.scss';
 
 const HeroSection = () => {
   return (

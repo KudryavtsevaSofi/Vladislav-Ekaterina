@@ -1,0 +1,92 @@
+.component {
+
+  &__tobBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  &__title {
+    font-family: "Aquarelle";
+    font-size: 35px;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--main-blue);
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__text {
+    font-family: "CormorantGaramond-Medium";
+    font-size: 18px;
+    text-align: center;
+    color: var(--main-blue);
+  }
+
+  &__mapBtn {
+    background-color: var(--main-blue);
+    border-radius: 15px;
+    height: 38px;
+    width: 210px;
+    color: var(--text-white);
+    font-family: "CormorantGaramond-Medium";
+    font-size: 19px;
+  }
+
+  &__stickImg {
+    width: 90%;
+    margin-top: 15px;
+  }
+
+  &__bottomBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: 
+      url(../../assets/images/rings.svg),
+      url(../../assets/images/music.svg),
+      url(../../assets/images/glasses.svg);
+    background-repeat: 
+      no-repeat, 
+      no-repeat, 
+      no-repeat;
+    background-position: 
+      0 18%,
+      95% 60%,
+      2% 80%;
+    background-size: 
+      30%, 29%, 20%;
+  }
+
+  &__smallText {
+    font-family: "CormorantGaramond-Medium";
+    margin: 0;
+    font-size: 20px;
+  }
+
+  &__largeText {
+    font-family: "Aquarelle";
+    margin: 0;
+    font-size: 40px;
+    line-height: 130%;
+  }
+
+  &__heartImg {
+    width: 36px;
+    margin: 18px 0;
+  }
+
+  &__chatBtn {
+    background-color: var(--main-blue);
+    border-radius: 15px;
+    height: 38px;
+    width: 250px;
+    color: var(--text-white);
+    font-family: "CormorantGaramond-Medium";
+    font-size: 19px;
+    margin: 18px 0;
+  }
+}
