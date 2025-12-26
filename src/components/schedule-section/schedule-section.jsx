@@ -41,7 +41,10 @@ const ScheduleSection = () => {
         <p className={styles.component__smallText}>Окончание вечера</p>
         <p className={styles.component__largeText}>23:00</p>
 
-        <button className={styles.component__chatBtn}>
+        <button 
+          className={styles.component__chatBtn}
+          onClick={() => window.open('https://t.me/+7CoJuQumeApjZjUy', '_blank')}
+        >
           Присоединиться в чат гостей
         </button>
       </div>

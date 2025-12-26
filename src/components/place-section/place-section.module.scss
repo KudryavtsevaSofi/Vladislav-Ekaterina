@@ -1,0 +1,46 @@
+.component {
+
+  &__topBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    font-family: "Aquarelle";
+    font-size: 35px;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--main-blue);
+    line-height: 150%;
+    margin-top: 10px;
+  }
+
+  &__image {
+    width: 80%;
+  }
+
+  &__text {
+    font-family: "CormorantGaramond-Medium";
+    font-size: 18px;
+    color: var(--main-blue);
+  }
+
+  &__mapBtn {
+    background-color: var(--main-blue);
+    border-radius: 15px;
+    height: 38px;
+    width: 210px;
+    color: var(--text-white);
+    font-family: "CormorantGaramond-Medium";
+    font-size: 19px;
+  }
+
+  &__flowersImg {
+    transform: scale(-1, 1);
+    width: 110%;
+    right: 0;
+    margin-left: -10%;
+  }
+}

@@ -65,6 +65,7 @@
     font-family: "CormorantGaramond-Medium";
     margin: 0;
     font-size: 20px;
+    color: var(--main-blue);
   }
 
   &__largeText {
@@ -72,6 +73,7 @@
     margin: 0;
     font-size: 40px;
     line-height: 130%;
+    color: var(--main-blue);
   }
 
   &__heartImg {

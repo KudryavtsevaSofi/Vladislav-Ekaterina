@@ -4,6 +4,7 @@ import StickSmall from '../assets/images/stick-small.svg';
 import HeroSection from '../components/hero-section/hero-section';
 import DateSection from '../components/date-section/date-section';
 import ScheduleSection from '../components/schedule-section/schedule-section';
+import PlaceSection from '../components/place-section/place-section';
 
 const MainPage = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -25,6 +26,7 @@ const MainPage = () => {
           <HeroSection />
           <DateSection />
           <ScheduleSection />
+          <PlaceSection />
         </div>
       ) : (
         <div className={styles.desktop}>
