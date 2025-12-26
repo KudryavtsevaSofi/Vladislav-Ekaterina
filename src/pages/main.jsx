@@ -5,6 +5,7 @@ import HeroSection from '../components/hero-section/hero-section';
 import DateSection from '../components/date-section/date-section';
 import ScheduleSection from '../components/schedule-section/schedule-section';
 import PlaceSection from '../components/place-section/place-section';
+import DressCodeSection from '../components/dresscode-section/dresscode-section';
 
 const MainPage = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -27,6 +28,7 @@ const MainPage = () => {
           <DateSection />
           <ScheduleSection />
           <PlaceSection />
+          <DressCodeSection />
         </div>
       ) : (
         <div className={styles.desktop}>

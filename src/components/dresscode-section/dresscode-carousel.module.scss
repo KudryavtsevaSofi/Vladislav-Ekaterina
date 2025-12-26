@@ -1,0 +1,118 @@
+.carousel {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carouselWrapper {
+  position: relative;
+  max-width: none;
+  margin: 0 auto;
+}
+
+.carouselViewport {
+  position: relative;
+  height: 60vh;
+  overflow: hidden;
+}
+
+.slidesContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: var(--main-text-color);
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  width: 90%;
+  height: 100%;
+  border: solid 1px var(--vizioner);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 15px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+// Текущий слайд
+.currentSlide {
+  left: 0;
+  z-index: 3;
+  transition: left 0.5s ease-in-out;
+}
+
+// Следующий слайд
+.nextSlide {
+  left: calc(100% - 60px);
+  z-index: 2;
+  transition: left 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+// Третий слайд
+.thirdSlide {
+  left: calc(200% - 120px);
+  z-index: 1;
+  transition: left 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+// Анимация прокрутки для всех трех слайдов
+.currentSlide.animating {
+  animation: slideOutLeft 0.5s ease-in-out forwards;
+}
+
+.nextSlide.animating {
+  animation: slideInLeft 0.5s ease-in-out forwards;
+}
+
+.thirdSlide.animating {
+  animation: slideThirdLeft 0.5s ease-in-out forwards;
+}
+
+@keyframes slideOutLeft {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    left: calc(100% - 60px);
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes slideThirdLeft {
+  0% {
+    left: calc(200% - 120px);
+  }
+  100% {
+    left: calc(100% - 60px);
+  }
+}
+
+// Стили для контента слайда
+.slideContent {
+  width: 100%;
+  margin: 0;
+}
+
+.slidePhoto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

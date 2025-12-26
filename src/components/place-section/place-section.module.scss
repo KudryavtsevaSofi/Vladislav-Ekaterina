@@ -37,6 +37,11 @@
     font-size: 19px;
   }
 
+  &__flowersBlock {
+    height: 35vh;
+    overflow: hidden;
+  }
+
   &__flowersImg {
     transform: scale(-1, 1);
     width: 110%;

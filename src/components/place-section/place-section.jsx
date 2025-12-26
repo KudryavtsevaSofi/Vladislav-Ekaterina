@@ -19,7 +19,9 @@ const PlaceSection = () => {
           Показать на карте
         </button>
       </div>
-      <img src={FlowersBlue} className={styles.component__flowersImg}></img>
+      <div className={styles.component__flowersBlock}>
+        <img src={FlowersBlue} className={styles.component__flowersImg}></img>
+      </div>
     </div>
   );
 };
