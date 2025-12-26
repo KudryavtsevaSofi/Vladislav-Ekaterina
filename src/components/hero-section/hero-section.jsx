@@ -15,13 +15,13 @@ const HeroSection = () => {
         </div>
       </div>
       <div className={styles.component__photo}>
-        <img  src={Photo}></img>
+        <img  src={Photo} alt='photo'></img>
       </div>
       <div className={styles.component__date}>
         <p>20.06.2026 <br/>г.Самара</p>
       </div>
       <div className={styles.component__image}>
-        <img  src={Flowers}></img>
+        <img  src={Flowers} alt='flowers'></img>
       </div>
     </div>
   );

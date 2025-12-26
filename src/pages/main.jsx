@@ -38,7 +38,7 @@ const MainPage = () => {
         <div className={styles.desktop}>
           <div className={styles.desktop__content}>
             <p className={styles.desktop__text}>Пожалуйста, откройте сайт через <br/>мобильное устройство</p>
-            <img src={StickSmall} className={styles.desktop__stick} alt='Веточка' />
+            <img src={StickSmall} className={styles.desktop__stick} alt='stick' />
           </div>
         </div>
       )}

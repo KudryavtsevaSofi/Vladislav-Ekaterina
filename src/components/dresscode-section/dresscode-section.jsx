@@ -39,19 +39,19 @@ const DressCodeSection = () => {
           Мы будем рады, если вы поддержите цветовую палитру нашей свадьбы:
         </p>
         <div className={styles.component__colors}>
-          <svg className={styles.component__circle} width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg className={styles.component__colorCircle} width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="17.5" cy="17.5" r="17" fill="#01265D" stroke="black"/>
           </svg>
-          <svg className={styles.component__circle} width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg className={styles.component__colorCircle} width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="17.5" cy="17.5" r="17" fill="#657694" stroke="black"/>
           </svg>
-          <svg className={styles.component__circle} width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg className={styles.component__colorCircle} width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="17.5" cy="17.5" r="17" fill="#AFCFFF" stroke="black"/>
           </svg>
-          <svg className={styles.component__circle} width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg className={styles.component__colorCircle} width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="17.5" cy="17.5" r="17" fill="#DBEAFF" stroke="black"/>
           </svg>
-          <svg className={styles.component__circle} width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg className={styles.component__colorCircle} width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="17.5" cy="17.5" r="17" fill="#FEF7E9" stroke="black"/>
           </svg>
         </div>

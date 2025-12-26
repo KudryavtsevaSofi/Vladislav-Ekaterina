@@ -18,7 +18,7 @@ const FooterSection = () => {
       >
         Анкета гостя
       </button>
-      <img src={StickSmall} className={styles.component__stickImg}></img>
+      <img src={StickSmall} className={styles.component__stickImg} alt='stick'></img>
       <p className={styles.component__title}>
         Контакты
       </p>
@@ -33,7 +33,7 @@ const FooterSection = () => {
         Владислав +7 960 843 38 95
       </p>
       <div className={styles.component__flowersBlock}>
-        <img src={FlowersBlue} className={styles.component__flowersImg}></img>
+        <img src={FlowersBlue} className={styles.component__flowersImg} alt='flowers'></img>
       </div>
     </div>
   );

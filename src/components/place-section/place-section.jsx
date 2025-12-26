@@ -10,7 +10,7 @@ const PlaceSection = () => {
         <p className={styles.component__title}>
           Место проведения <br/> банкета
         </p>
-        <img src={Banquet} className={styles.component__image}></img>
+        <img src={Banquet} className={styles.component__image} alt='banquet'></img>
         <p className={styles.component__text}>Банкетный зал «Фьюжн»</p>
         <button 
           className={styles.component__mapBtn}
@@ -20,7 +20,7 @@ const PlaceSection = () => {
         </button>
       </div>
       <div className={styles.component__flowersBlock}>
-        <img src={FlowersBlue} className={styles.component__flowersImg}></img>
+        <img src={FlowersBlue} className={styles.component__flowersImg} alt='flowers'></img>
       </div>
     </div>
   );

@@ -37,7 +37,7 @@ const DateSection = () => {
           </tr>
         </tbody>
       </table>
-      <img src={FlowersBlue} className={styles.component__flowersImg}></img>
+      <img src={FlowersBlue} className={styles.component__flowersImg} alt='flowers'></img>
     </div>
   );
 };

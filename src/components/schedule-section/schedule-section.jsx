@@ -11,7 +11,7 @@ const ScheduleSection = () => {
         <p className={styles.component__title}>
           Дворец бракосочетания
         </p>
-        <img src={Zags} className={styles.component__image}></img>
+        <img src={Zags} className={styles.component__image} alt='zags'></img>
         <p className={styles.component__text}>
           Адрес: г. Самара, ул. Молодогвардейская, 238
         </p>
@@ -21,22 +21,22 @@ const ScheduleSection = () => {
         >
           Показать на карте
         </button>
-        <img src={StickBig} className={styles.component__stickImg}></img>
+        <img src={StickBig} className={styles.component__stickImg} alt='stick'></img>
       </div>
       <div className={styles.component__bottomBlock}>
         <p className={styles.component__title}>Расписание дня</p>
 
         <p className={styles.component__smallText}>Сбор гостей возле ЗАГСа</p>
         <p className={styles.component__largeText}>15:00</p>
-        <img src={Heart} className={styles.component__heartImg}></img>
+        <img src={Heart} className={styles.component__heartImg} alt='stick'></img>
 
         <p className={styles.component__smallText}>Церемония бракосочетания</p>
         <p className={styles.component__largeText}>15:30</p>
-        <img src={Heart} className={styles.component__heartImg}></img>
+        <img src={Heart} className={styles.component__heartImg} alt='heart'></img>
 
         <p className={styles.component__smallText}>Начало банкета</p>
         <p className={styles.component__largeText}>17:00</p>
-        <img src={Heart} className={styles.component__heartImg}></img>
+        <img src={Heart} className={styles.component__heartImg} alt='heart'></img>
 
         <p className={styles.component__smallText}>Окончание вечера</p>
         <p className={styles.component__largeText}>23:00</p>
