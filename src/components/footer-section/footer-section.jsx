@@ -26,12 +26,12 @@ const FooterSection = () => {
         По всем вопросам и уточнениям можете обращаться к нам:
 
       </p>
-      <p className={styles.component__contact}>
+      <a href='tel:+79024137880' className={styles.component__contact}>
         Екатерина +7 902 413 78 80
-      </p>
-      <p className={styles.component__contact}>
+      </a>
+      <a href='tel:+79608433895' className={styles.component__contact}>
         Владислав +7 960 843 38 95
-      </p>
+      </a>
       <div className={styles.component__flowersBlock}>
         <img src={FlowersBlue} className={styles.component__flowersImg} alt='flowers'></img>
       </div>
