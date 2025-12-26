@@ -9,4 +9,6 @@ HTML, SCSS, JavaScript, React
 
 ## Демонстрационные изображения
 
-<img width="300" src="demo.png" />
+<div align="center">
+  <img width="300" src="demo.png" />
+</div>
