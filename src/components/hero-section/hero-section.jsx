@@ -15,7 +15,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className={styles.component__photo}>
-        <img  src={Photo} alt='photo'></img>
+        <img  src={Photo} alt='photoshoot'></img>
       </div>
       <div className={styles.component__date}>
         <p>20.06.2026 <br/>г.Самара</p>
