@@ -17,7 +17,7 @@ const ScheduleSection = () => {
         </p>
         <button 
           className={styles.component__mapBtn}
-          onClick={() => window.open('https://yandex.ru/maps/?ll=50.122243,53.207995&z=17&pt=50.122243,53.207995', '_blank')}
+          onClick={() => window.open('https://yandex.ru/maps/org/dvorets_brakosochetaniya/1017085378/?ll=50.122259%2C53.207942&pt=50.122243%2C53.207995&z=18', '_blank')}
         >
           Показать на карте
         </button>

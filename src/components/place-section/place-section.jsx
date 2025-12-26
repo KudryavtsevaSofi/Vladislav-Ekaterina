@@ -14,7 +14,7 @@ const PlaceSection = () => {
         <p className={styles.component__text}>Банкетный зал «Фьюжн»</p>
         <button 
           className={styles.component__mapBtn}
-          onClick={() => window.open('https://yandex.ru/maps/?ll=50.166436,53.117672&z=17&pt=50.166436,53.117672', '_blank')}
+          onClick={() => window.open('https://yandex.ru/maps/org/2_pertsa/96151419258/?ll=50.166436,53.117672&z=17&pt=50.166436,53.117672', '_blank')}
         >
           Показать на карте
         </button>
