@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Vladislav-Ekaterina/static/css/main.a0460f3c.css",
+    "main.js": "/Vladislav-Ekaterina/static/js/main.58032253.js",
+    "static/js/453.31c54284.chunk.js": "/Vladislav-Ekaterina/static/js/453.31c54284.chunk.js",
+    "static/media/zags.svg": "/Vladislav-Ekaterina/static/media/zags.abb5e5c2486141d03351f4a2d49359da.svg",
+    "static/media/banquet.svg": "/Vladislav-Ekaterina/static/media/banquet.1ab64999522b7a7cdf9bff5be118069f.svg",
+    "static/media/CormorantGaramond-Regular.ttf": "/Vladislav-Ekaterina/static/media/CormorantGaramond-Regular.ec49e37220273b5a5f0e.ttf",
+    "static/media/CormorantGaramond-Medium.ttf": "/Vladislav-Ekaterina/static/media/CormorantGaramond-Medium.803dcd75c1a47e264b79.ttf",
+    "static/media/flowers-blue.svg": "/Vladislav-Ekaterina/static/media/flowers-blue.6894bd6712ef964712a57656599e6bfa.svg",
+    "static/media/flowers.svg": "/Vladislav-Ekaterina/static/media/flowers.b3b8360e025c90077eade6794d1e9d78.svg",
+    "static/media/stick-big.svg": "/Vladislav-Ekaterina/static/media/stick-big.0e756b83644e07de88efeccdd2fcc876.svg",
+    "static/media/outfit-5.svg": "/Vladislav-Ekaterina/static/media/outfit-5.f4a2b11237f413d3788c91bc32c33f75.svg",
+    "static/media/outfit-3.svg": "/Vladislav-Ekaterina/static/media/outfit-3.7ae5509437ea39d6af247853bb115e85.svg",
+    "static/media/Aquarelle.ttf": "/Vladislav-Ekaterina/static/media/Aquarelle.bfecd6005368bc20e6fa.ttf",
+    "static/media/outfit-4.svg": "/Vladislav-Ekaterina/static/media/outfit-4.f14f7703e19fdef341f003a144487d72.svg",
+    "static/media/photo.svg": "/Vladislav-Ekaterina/static/media/photo.12f8f213907e7601048a707360d33417.svg",
+    "static/media/outfit-2.svg": "/Vladislav-Ekaterina/static/media/outfit-2.ddc8fb886907904bf5a1e253175a5b1d.svg",
+    "static/media/outfit-1.svg": "/Vladislav-Ekaterina/static/media/outfit-1.3c984b815df9bf423fd5e7f4935d83a4.svg",
+    "static/media/stick-small.svg": "/Vladislav-Ekaterina/static/media/stick-small.72739c5f733a621d47878c9e82fd821d.svg",
+    "static/media/glasses.svg": "/Vladislav-Ekaterina/static/media/glasses.59ddc0a9a73762c8f619.svg",
+    "static/media/music.svg": "/Vladislav-Ekaterina/static/media/music.2cb54d429f8a28f6f0f0.svg",
+    "static/media/rings.svg": "/Vladislav-Ekaterina/static/media/rings.3388d1f30f84691f04f4.svg",
+    "static/media/heart.svg": "/Vladislav-Ekaterina/static/media/heart.b118b97b5f3eedcdf31c9ec1bbd791a5.svg",
+    "index.html": "/Vladislav-Ekaterina/index.html",
+    "main.a0460f3c.css.map": "/Vladislav-Ekaterina/static/css/main.a0460f3c.css.map",
+    "main.58032253.js.map": "/Vladislav-Ekaterina/static/js/main.58032253.js.map",
+    "453.31c54284.chunk.js.map": "/Vladislav-Ekaterina/static/js/453.31c54284.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0460f3c.css",
+    "static/js/main.58032253.js"
+  ]
+}
